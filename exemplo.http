@@ -1,0 +1,23 @@
+http://localhost:3000/meses
+
+###
+GET http://localhost:3000/meses/2 HTTP/1.1
+
+###
+POST http://localhost:3000/meses HTTP/1.1
+content-type: application/json
+
+{
+	"Mês":"Marco"
+}
+
+###
+PUT http://localhost:3000/meses/3 HTTP/1.1
+content-type: application/json
+
+{
+	"Mês":"Março"
+}
+
+###
+DELETE http://localhost:3000/meses/3 HTTP/1.1
